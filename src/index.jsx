@@ -14,12 +14,9 @@ const TIME_STATUS = {
 }
 
 const DEFAULT = {
-    breakTime: 0.1,
-    sessionTime: 1.1,
-    count: 3 * 1000,
-    // breakTime: 5,
-    // sessionTime: 25,
-    // count: 25 * 60 * 1000,
+    breakTime: 5,
+    sessionTime: 25,
+    count: 25 * 60 * 1000,
     state: TIME_STATE.SESSION,
     status: TIME_STATUS.PAUSE
 }
